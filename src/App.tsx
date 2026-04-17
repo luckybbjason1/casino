@@ -530,6 +530,15 @@ function ImageCarousel() {
   );
 }
 
+function StatusMetric({ label, value }: { label: string, value: string }) {
+  return (
+    <div className="border-l border-brand-border/30 pl-6">
+      <div className="text-[10px] text-brand-text-muted font-black uppercase tracking-widest mb-1">{label}</div>
+      <div className="text-xl font-black text-white">{value}</div>
+    </div>
+  );
+}
+
 function ServiceCard({ image, subImage, category, title, desc }: { image: string, subImage?: string, category: string, title: string, desc: string }) {
   return (
     <motion.div
