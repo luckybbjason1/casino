@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Malgun Gothic", "Apple SD Gothic Neo", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand-bg: #0F172A;
+  --color-brand-primary: #38BDF8;
+  --color-brand-surface: #1E293B;
+  --color-brand-border: #334155;
+  --color-brand-text-muted: #94A3B8;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-bg);
+    color: #F8FAFC;
+  }
+}
