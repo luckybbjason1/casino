@@ -14,7 +14,7 @@ import {
   TrendingUp
 } from 'lucide-react';
 
-const MAIN_URL = "https://wrd483.com/main?agentCode=p138";
+const MAIN_URL = "https://kak2028.com";
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -465,7 +465,7 @@ export default function App() {
               <img src={`${BASE}images/world-logo.png`} alt="WORLD LIVE GAMES" className="w-12 h-12 rounded-lg" />
               <div>
                 <div className="text-2xl font-black text-brand-primary tracking-tighter">JACK2030</div>
-                <div className="text-brand-text-muted text-xs font-medium">https://wrd483.com</div>
+                <div className="text-brand-text-muted text-xs font-medium">https://kak2028.com</div>
               </div>
             </div>
             <div className="flex flex-wrap justify-center gap-2">
